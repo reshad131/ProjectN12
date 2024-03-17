@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+}
+
+.navbar__img{
+    width: 50px;
+    height: auto;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://static1.squarespace.com/static/5abbea6fc258b4f56d09219e/5abbebcb352f53d186070d16/60cb67d7ab5fe13a4c181a63/1623944317385/Blu+Homes+Review.jpg?format=1500w);
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    /* text-align: center; / */
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.textn2{
+    width: 400px;
+    height: auto;
+}
+
+#second{
+    margin-top: 40px;
+}
+
+
+.containern1 {
+  display: grid;
+  grid-template-rows: repeat(2, 350px);
+  grid-template-columns: repeat(3, 350px);
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-bottom: 0;
+  gap: 20px;
+}
+
+.items{
+  height: 350px;
+  width: 350px;
+}
+
+.items1{
+  height: 350px;
+  width: 700px;
+}
+
+.item-1{
+  grid-column: 1 / 3;
+}
+
+/* .item-2{
+  grid-row: 2 / 3 ;
+  grid-column: 3 / 4;
+} */
+
+/* .item-3{
+  grid-row: 2 / 3 ;
+  grid-column: 2 / 3;
+}
+
+.item-4{
+  grid-row: 2 / 6 ;
+  grid-column: 1 / 2;
+} */
+
+a{
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: xx-large;
+  color: #000000;
+}
+
+
+.containers{
+  margin-top: 20px;
+
+}
+.container__text{
+  text-align: center;
+  margin: 0 auto;
+  width: 1450px; 
+  max-width: 1450px;
+  height: 150px;
+  padding-left: 115px;
+  padding-right: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+  background-color:#333;
+}
+
+.container__text2{
+  text-align: center;
+  margin: 0 auto;
+  width: 1450px; 
+  max-width: 1450px;
+  height: 150px;
+  padding-left: 115px;
+  padding-right: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+  background-color:#333;
+}
+
+.container__text3{
+  text-align: center;
+  margin: 0 auto;
+  width: 1450px; 
+  max-width: 1450px;
+  height: 150px;
+  padding-left: 115px;
+  padding-right: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+  background-color:#333;
+}
+
+p{
+  color: #9b9898;
+}
+
+h2{
+  color: #ffffff;
+}
+
+.partners{
+  width: 1200px;
+  height: auto;
+  /* background-color: #9b9898; */
+  margin-left: 130px;
+}
+
+.header{
+  text-align: center;
+  margin: 0 auto;
+  width: 1200px; 
+  max-width: 1200px;
+  height: 150px;
+  padding-left: 115px;
+  padding-right: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.partner__logo{
+  width: 700px;
+  max-width: 700px;
+  height: 300px;
+  display: flex;
+  gap: 40px;
+  color: #333;
+}
+
+.partner__logo img{
+  width: 200px;
+  height: 200px;
+  background-color: #f9f9f9;
+}
+
+.logo2{
+  width: 700px;
+  max-width: 700px;
+  height: 300px;
+  display: flex;
+  gap: 40px;
+  color: #333;
+}
+
+.logo2 img{
+  background-color: #f9f9f9;
+  width: 200px;
+  height: 200px;
+}
+
+.h4{
+    display: flex;
+    justify-content: space-around;
+}
+
+.h4 h4{
+  font-size: 40px;
+}
+
+.h4 p{
+  color: #000000;
+}
+
+.first,.second{
+  padding-left:  30px;
+  width: 1400px;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.first{
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.first__w{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.first img{
+  width: 300px;
+  height: 200px;
+}
+
+.second{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.second img{
+  width: 300px;
+  height: 200px;
+}
+
+p{
+  width: 300px;
+}
+
+.first__s{
+  display: flex;
+  align-items: center;
+}
+
+.footer{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer i{
+  color:wheat;
+  position: absolute;
+  font-size: smaller;
+}
+
+ul li{
+  display: flex;
+  display: inline-block;
+  margin-left: 60px;
+  font-size: 25px;
+  cursor: pointer;
+}
+ul li {
+  position: relative;
+}
+
+ul li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: blue;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+ul li:hover::after {
+  width: 100%;
+}
+
+.footer ul li a {
+  font-size: 20px; 
+}
+
