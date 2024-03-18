@@ -6,6 +6,11 @@
     list-style: none;
 }
 
+::selection{
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
